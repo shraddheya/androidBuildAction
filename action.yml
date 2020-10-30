@@ -1,0 +1,6 @@
+# action.yml
+name: 'Android Build Action'
+description: 'building the app'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
